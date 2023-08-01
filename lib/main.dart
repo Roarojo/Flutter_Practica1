@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
             false, //quita la leyenda "Debug" en el emulador
 
         //home: HomeScreen(), //Aqui hacemos referencia a la otra clase.
+        //Para acceder a la otra clase
         home: CounterScreen());
   }
 }
